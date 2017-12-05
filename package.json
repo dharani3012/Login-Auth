@@ -1,0 +1,27 @@
+{
+  "name": "facebook",
+  "version": "1.0.0",
+  "description": "Facebook Auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kishorsnk/snk-auth.git"
+  },
+  "keywords": [
+    "Facebook",
+    "Auth"
+  ],
+  "author": "SNK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kishorsnk/snk-auth/issues"
+  },
+  "homepage": "https://github.com/kishorsnk/snk-auth#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^4.13.6"
+  }
+}
