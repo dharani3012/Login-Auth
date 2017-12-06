@@ -1,0 +1,21 @@
+.navbar-nav > li > a{text-transform: uppercase;}
+.nav > li > a:focus, .nav > li > a:hover{ background-color: transparent !important;  }
+.navbar-nav li a:hover{  color: #4ab4ff !important; } 
+.navbar-nav li a{color: #FFF; font-size: 13px; font-weight: 500; letter-spacing: 1px;}
+.navbar-nav .active a{color: #4ab4ff;}
+.navbar{ margin-bottom: -10px !important; }
+.navbar-toggle{ margin-top: 14px !important;  border: 0px solid #FFF !important;}
+.navbar-toggle .icon-bar{border: 1px solid #FFF !important;}
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{background-color: transparent !important; color: #4ab4ff; }
+.navbar-brand>img{margin-top: 8px;}
+.dropdown-menu li a{background-color: #FFF; color: #999 !important ; }
+
+.dropdown-menu{ padding: 10px !important; border-radius: 4px !important; }
+.dropdown-menu > li > a{padding: 16px 20px !important;}
+.dropdown-menu li a{ clear: both;line-height: 2;white-space: nowrap; padding: 10px 15px;color: #454545 !important;font-weight:500 !important; display: block;position: relative; letter-spacing: 1px;}
+.dropdown-menu li a:hover{ background-color: #FFF !important; color: #4ab4ff !important;}
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus{ background-color:  #FFF  !important; color: #4ab4ff !important; }
+.navbar-form{padding-right: 0;}
+/*.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{margin-top: -25px;}*/
+
+.navbar-hamburg{margin-top: 15px;color: #FFF;font-size: 20px;float: right;margin-right: 0px;font-weight: 500;}

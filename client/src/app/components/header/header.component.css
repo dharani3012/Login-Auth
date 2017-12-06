@@ -1,0 +1,4 @@
+header{width: 100%; height: auto; float: left; position: fixed; top: 0; z-index: 999;}
+.affix { transition: all 500ms ease-in-out; top: 0;width: 100%;  z-index: 9999; padding: 10px !important;    background-color: #FFF !important;      box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);  }
+.affix .navbar-nav .active a{color: #0088e6;}
+.affix .navbar-nav li a{color: #898989;}
