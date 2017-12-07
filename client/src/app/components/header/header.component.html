@@ -1,4 +1,5 @@
-<header data-spy="affix" data-offset-top="80" class="desktop">
+<sticky [sticky-offset-top]="20" [sticky-class]="sticky">
+<header>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -7,8 +8,9 @@
         </div>
     </div>
 </header>
+</sticky>
 
-<carousel class="banner">
+<carousel class="banner" *ngIf="router.url == '/'">
 	<slide>
 	    <img src="assets/images/wall1.jpg" alt="First slide" style="display: block; width: 100%;">
 	    <div class="carousel-caption d-none d-md-block">
@@ -33,3 +35,15 @@
 	    </div>
 	</slide>
 </carousel>
+
+<div class="pageHeader" *ngIf="router.url != '/'">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h1>
+				<a href="" class="mdButton-a">Access Page</a>
+				<img src="assets/svg/header-right.svg" class="img-responsive" />
+			</div>
+		</div>
+	</div>
+</div>

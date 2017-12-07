@@ -1,0 +1,78 @@
+.createAccount{width: 100%; height: auto; float: left; margin: 60px 0px; border-radius: 5px; overflow: hidden; box-shadow: 0 2px 30px #ccc;}
+.signupImage, .signupImageHover, .signupContent{width: 100%; height: auto; float: left;}
+.signupImage{position: relative;     top: -2px; background: linear-gradient(0deg, #00839D, #04CA94 70%); min-height: 635px;}
+.signupImage img{position: absolute; bottom: -210px;}
+.signupImageHover{position: absolute;top: 0; /*background: linear-gradient(rgba(0,131,157,0.7),rgba(4,202,148,0.8));*/ height: 100%; padding: 20px;}
+.signupImageHover h1{color: #fff; text-align: left; font-weight: 800; line-height: 162px;}
+.signupImageHover p{color: #fff; font-size: 15px; font-weight: 400; text-align: justify; line-height: 2;}
+
+.signupContent{background: #fff; padding: 20px; overflow: hidden;}
+.signupContent h1{color: #00839d; text-align: center; font-weight: 800; line-height:60px;}
+.signupContent p{ color: #7c7c7c;   text-align: center;    line-height: 2;    font-size: 16px;}
+.signupContent h5{text-align: center;    text-transform: uppercase;    line-height: 36px;}
+.signupContent .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.signupContent .omb_socialButtons a {
+	color: white; border-radius: 25px; font-size: 16px;
+	opacity:0.9;
+}
+.signupContent .omb_socialButtons a:hover {
+    color: white; 
+	opacity:1;    	
+}
+.signupContent .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.signupContent .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.signupContent .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+.signupContent .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.signupContent .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.signupContent .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.signupContent .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.signupContent .omb_loginForm  .help-block {
+    color: red;
+}
+.form-group label{color: #bfbfbf;}
+.form-group .form-control{width: 100%; height: 48px; border: 0px; border-bottom: 1px solid #ddd; box-shadow: none; border-radius: 0; padding-left: 0px;}
+.form-group .form-control:focus{border-bottom: 1px solid rgba(0,131,157,1);}
+.mdButton{width: 100%; height: 48px;background: #10b49c; border: 0;margin: 20px 0px;border-radius: 25px;color: #fff;}
+.mdButton:hover, .mdButton:focus{background: #00839D; color: #fff; transition: all 500ms ease-in-out;}
+.signupContent .alreadyHave{color: #7c7c7c; line-height: 2; text-align: right; font-size: 14px;}
+.signupContent a{color: #10b49c; }
+.signupContent a:hover, .signupContent a:focus{text-decoration: none;}
+
+@media(max-width: 1198px){
+	.signupImageHover h1{line-height: 60px;}
+}
+
+@media(max-width: 768px){
+	.signupImage{min-height: 324px;	}
+	.signupImage img{right: -144px; opacity: 0.5; top: 0;}
+}

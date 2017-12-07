@@ -2,3 +2,9 @@ header{width: 100%; height: auto; float: left; position: fixed; top: 0; z-index:
 .affix { transition: all 500ms ease-in-out; top: 0;width: 100%;  z-index: 9999; padding: 10px !important;    background-color: #FFF !important;      box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);  }
 .affix .navbar-nav .active a{color: #0088e6;}
 .affix .navbar-nav li a{color: #898989;}
+.pageHeader{width:100%; height: auto; float: left; min-height: 290px; background: linear-gradient(0deg, #00839D, #04CA94 70%);}
+.pageHeader h1{margin-top: 100px;    color: #fff;    text-align: left;    font-size: 28px;}
+.pageHeader img{position: absolute;    right: 0;    top: -78px;}
+.mdButton-a{width: 161px;    height: 48px;    color: #10b49c;    background: #FFF;    padding: 12px 20px;    border-radius: 25px;    margin: 30px 0px;    display: block;    text-align: center;    font-size: 17px;}
+.mdButton-a:hover, .mdButton-a:focus{text-decoration: none; color: #00839D; transition: all 500ms ease-in-out;}
+.sticky header{background: #fff;}
