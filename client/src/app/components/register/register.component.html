@@ -1,4 +1,21 @@
-<div class="createAccount">
+  <div *ngIf="user" class="card text-center">
+    <h6 class="card-header">
+      Social Login Demo
+    </h6>
+    <div class="card-block"></div>
+    <img class="card-img-top img-responsive photo" src="{{ user.photoUrl }}">
+    <div class="card-block">
+      <h4 class="card-title">{{ user.name }}</h4>
+      <p class="card-text">{{ user.email }}</p>
+    </div>
+    <div class="card-block">
+      <button class="btn btn-danger" (click)="signOut()">Sign out</button>
+    </div>
+  </div>
+
+
+
+<div class="createAccount" *ngIf="!user">
 <div class="row">
 	<div class="col-md-5 col-sm-5 col-xs-12">
 		<div class="signupImage">
@@ -17,13 +34,13 @@
 			<h5>Sign Up With</h5>
 			<div class="row col-sm-offset-1 omb_socialButtons">
 				<div class="col-xs-6 col-sm-5">
-			        <a href="#" class="btn btn-lg btn-block omb_btn-facebook">
+			        <a (click)="signInWithFB()" class="btn btn-lg btn-block omb_btn-facebook">
 				        <i class="fa fa-facebook"></i>
 				        <span class="hidden-xs">Facebook</span>
 			        </a>
 		        </div>
 	        	<div class="col-xs-6 col-sm-5">
-			        <a href="#" class="btn btn-lg btn-block omb_btn-google">
+			        <a href="" (click)="signInWithGoogle()" class="btn btn-lg btn-block omb_btn-google">
 				        <i class="fa fa-google"></i>
 				        <span class="hidden-xs">Google</span>
 			        </a>
