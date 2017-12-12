@@ -7,4 +7,11 @@ header{width: 100%; height: auto; float: left; position: fixed; top: 0; z-index:
 .pageHeader img{position: absolute;    right: 0;    top: -78px;}
 .mdButton-a{width: 161px;    height: 48px;    color: #10b49c;    background: #FFF;    padding: 12px 20px;    border-radius: 25px;    margin: 30px 0px;    display: block;    text-align: center;    font-size: 17px;}
 .mdButton-a:hover, .mdButton-a:focus{text-decoration: none; color: #00839D; transition: all 500ms ease-in-out;}
-.sticky header{background: #fff;}
+.page-scroll-header {
+    background-color: #6670a1 !important;
+    opacity: 1; height: 50px; transition: all 500ms ease-in-out !important;
+}
+
+.my-header {
+    transition: background-color 2s ease-out;
+}

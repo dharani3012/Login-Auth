@@ -1,5 +1,4 @@
-<sticky [sticky-offset-top]="20" [sticky-class]="sticky">
-<header>
+<header class="my-header" [ngClass]= "{'page-scroll-header': isScrolled}">
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -8,7 +7,7 @@
         </div>
     </div>
 </header>
-</sticky>
+
 
 <carousel class="banner" *ngIf="router.url == '/'">
 	<slide>
